@@ -1,0 +1,6 @@
+{
+  "name": "Vanlux Embalagens",
+  "description": "Vanlux, Soluções em embalagens — Casa de embalagens em Fazenda Rio Grande - PR. Sacolas, bobinas, fitas, caixas e descartáveis com pronta entrega e variedade.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

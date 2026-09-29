@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color-scheme: dark;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Outfit', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+/* Custom premium metallic gold gradients & glows */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF0CA 0%, #F5CE66 30%, #D4AF37 70%, #9B781E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #F3D279 0%, #D4AF37 50%, #B8860B 100%);
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 25px -5px rgba(212, 175, 55, 0.18);
+}
+
+.blue-card-bg {
+  background: linear-gradient(180deg, rgba(14, 27, 54, 0.85) 0%, rgba(9, 18, 36, 0.95) 100%);
+}
+
+.blue-surface-glow {
+  box-shadow: 0 10px 30px -10px rgba(2, 6, 23, 0.7), inset 0 1px 0 0 rgba(212, 175, 55, 0.15);
+}
+
+/* Subtle glass effect */
+.glass-panel {
+  background: rgba(10, 22, 44, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 175, 55, 0.16);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #060D1A;
+}
+::-webkit-scrollbar-thumb {
+  background: #1b305b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
