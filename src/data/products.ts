@@ -43,6 +43,28 @@ export const CATEGORIES = [
 
 export const PRODUCTS: Product[] = [
   {
+    id: 'embalagem-delivery',
+    name: 'Embalagem Delivery',
+    category: 'caixas-alimentacao',
+    categoryLabel: 'Caixas & Alimentação',
+    sizes: 'Disponível em vários tamanhos.',
+    description: 'Embalagem resistente e prática para delivery de alimentos e refeições, garantindo segurança e ótima apresentação.',
+    image: 'https://i.postimg.cc/zB5DjqGb/MC7086-2025-06-12-08-41-39-3-D.jpg',
+    featured: true,
+    highlightTag: 'Mais Vendido',
+  },
+  {
+    id: 'sacola-kraft',
+    name: 'Sacola Kraft',
+    category: 'sacolas',
+    categoryLabel: 'Sacolas',
+    sizes: 'Disponível em vários tamanhos.',
+    description: 'Sacola em papel kraft de excelente acabamento e resistência, perfeita para delivery, vestuário e presentes.',
+    image: 'https://i.postimg.cc/9fHcmcZc/IMG-da3fa344-b68d-452e-8718-8bb862303a0e.jpg',
+    featured: true,
+    highlightTag: 'Alta Saída',
+  },
+  {
     id: 'sacola-boca-palhaco',
     name: 'Sacola Boca de Palhaço',
     category: 'sacolas',
